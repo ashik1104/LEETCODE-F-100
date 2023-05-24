@@ -17,7 +17,7 @@ public:
             return 1;
         }
 
-        // if already solved, return resutl
+        // if already solved, return result
         if(dp[n] != -1)
         {
             return dp[n];
